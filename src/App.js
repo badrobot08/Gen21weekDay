@@ -1,24 +1,17 @@
-import React from "react";
-//functional component
-import NavBar from './components/NavBar.js'
-//class component
-import Content from "./components/content.js";
+import React from 'react'
+import ClassForm from './Form/ClassForm'
+import ClassState from './State components/ClassState'
+import FunctionState from './State components/FunctionState'
 
-
-function App() {
-
- const navBarName ='Vw'
-
+ function App() {
   return (
-    <div className="App">
-      <NavBar navName={navBarName} />
-      <Content />
-
-     
-    </div>
-
+    <>
+    <ClassForm/>
+    </>
    
-  );
+  )
 }
 
-export default App;
+
+
+export default App
