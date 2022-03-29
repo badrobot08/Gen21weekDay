@@ -1,17 +1,15 @@
-import React from 'react'
-import ClassForm from './Form/ClassForm'
-import ClassState from './State components/ClassState'
-import FunctionState from './State components/FunctionState'
+import React from "react";
+import ClassForm from "./Form/ClassForm";
+import ClassState from "./State components/ClassState";
+import ClassState1 from "./State components/ClassState@";
+import FunctionState from "./State components/FunctionState";
 
- function App() {
+function App() {
   return (
     <>
-    <ClassForm/>
+      <ClassState1 />
     </>
-   
-  )
+  );
 }
 
-
-
-export default App
+export default App;
